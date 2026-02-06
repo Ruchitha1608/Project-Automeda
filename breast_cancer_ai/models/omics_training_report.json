@@ -1,0 +1,148 @@
+{
+  "config": {
+    "data_path": "data/tcga_brca_key_genes.csv",
+    "label_column": "label",
+    "test_size": 0.15,
+    "val_size": 0.15,
+    "log_transform": true,
+    "normalize": true,
+    "n_top_features": 20,
+    "feature_method": "f_classif",
+    "model_type": "random_forest",
+    "n_estimators": 200,
+    "max_depth": 10,
+    "min_samples_split": 5,
+    "class_weight": "balanced",
+    "cv_folds": 5,
+    "model_save_path": "models/omics_model_v3.pkl",
+    "report_save_path": "models/omics_training_report.json",
+    "random_state": 42
+  },
+  "metrics": {
+    "accuracy": 0.9672131147540983,
+    "auc_roc": 0.9992912827781715,
+    "precision": 0.9651162790697675,
+    "recall": 1.0,
+    "f1_score": 0.9822485207100592,
+    "specificity": 0.6470588235294118,
+    "confusion_matrix": [
+      [
+        11,
+        6
+      ],
+      [
+        0,
+        166
+      ]
+    ],
+    "true_negatives": 11,
+    "true_positives": 166,
+    "false_positives": 6,
+    "false_negatives": 0
+  },
+  "selected_features": [
+    "BRCA1",
+    "BRCA2",
+    "ERBB2",
+    "PGR",
+    "MYC",
+    "PIK3CA",
+    "PTEN",
+    "EGFR",
+    "AKT1",
+    "CCND1",
+    "CDH1",
+    "RB1",
+    "CDKN2A",
+    "KRAS",
+    "ATM",
+    "CHEK2",
+    "MKI67",
+    "BCL2",
+    "BAX",
+    "VEGFA"
+  ],
+  "ranked_features": [
+    [
+      "MKI67",
+      545.6008390593979
+    ],
+    [
+      "BAX",
+      215.71385316693073
+    ],
+    [
+      "EGFR",
+      166.2848211851194
+    ],
+    [
+      "CDKN2A",
+      96.04751912161665
+    ],
+    [
+      "PTEN",
+      93.59067817117435
+    ],
+    [
+      "CHEK2",
+      89.04777069920833
+    ],
+    [
+      "PIK3CA",
+      82.80301294160667
+    ],
+    [
+      "ATM",
+      77.62786962170291
+    ],
+    [
+      "AKT1",
+      77.40848352542484
+    ],
+    [
+      "BRCA2",
+      75.38984856424399
+    ],
+    [
+      "MYC",
+      67.27230453859148
+    ],
+    [
+      "ERBB2",
+      58.718779457284704
+    ],
+    [
+      "KRAS",
+      42.13500648909378
+    ],
+    [
+      "BRCA1",
+      32.236650775266355
+    ],
+    [
+      "CDH1",
+      28.125325471934683
+    ],
+    [
+      "BCL2",
+      25.182240735587172
+    ],
+    [
+      "RB1",
+      21.743670606054554
+    ],
+    [
+      "VEGFA",
+      19.681848869366796
+    ],
+    [
+      "PGR",
+      15.006194210892495
+    ],
+    [
+      "CCND1",
+      13.603832314826894
+    ]
+  ],
+  "trained_at": "2026-02-06T15:47:52.364752"
+}
