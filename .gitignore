@@ -1,0 +1,63 @@
+# Data files - too large for GitHub
+breast_cancer_ai/data/omics/TCGA_BRCA_expression.tsv
+breast_cancer_ai/data/omics/TCGA_BRCA_expression.csv
+breast_cancer_ai/data/Breakhis-400x/
+breast_cancer_ai/data/images/
+breast_cancer_ai/data/papers/
+breast_cancer_ai 2/data/Breakhis-400x/
+breast_cancer_ai 2/data/images/
+breast_cancer_ai 2/data/papers/
+
+# Models
+breast_cancer_ai/models/
+breast_cancer_ai 2/models/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Jupyter Notebook  
+.ipynb_checkpoints
+*.ipynb
+
+# Database
+*.db
+*.sqlite
